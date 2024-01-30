@@ -1,0 +1,17 @@
+name: Feature Implementation
+title: "Feature: "
+labels: enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution
+      description: A clear and concise description of the solution you have implemented.
+      placeholder: Implemented solution
+    validations:
+      required: true
