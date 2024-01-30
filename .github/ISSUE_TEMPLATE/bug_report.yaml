@@ -36,13 +36,6 @@ body:
       required: true
 
   - type: textarea
-    id: logs
-    attributes:
-      label: Output
-      description: Please enter any relevant output as plain text.
-      render: shell
-
-  - type: textarea
     id: additional-context
     attributes:
       label: Additional context
@@ -54,3 +47,10 @@ body:
           - Device
           - Operating System
           - Browser
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log Output
+      description: Please enter any relevant output as plain text.
+      render: shell
