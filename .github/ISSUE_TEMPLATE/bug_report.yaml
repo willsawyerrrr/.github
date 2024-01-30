@@ -47,7 +47,7 @@ body:
       label: Additional context
       description: Please provide any additional details about the bug and its environment.
       placeholder: |
-        - Where are you seeing the problem?
+        - Tell us about where you are seeing the problem.
           - Device
           - Operating System
           - Browser
