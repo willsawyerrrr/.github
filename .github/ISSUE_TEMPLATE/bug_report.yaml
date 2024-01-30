@@ -17,6 +17,7 @@ body:
     id: reproduce-steps
     attributes:
       label: Steps To Reproduce
+      description: Steps to reproduce the behavior.
       placeholder: |
         1. Go to '...'
         2. Click on '....'
@@ -47,9 +48,9 @@ body:
       label: Additional context
       description: Please provide any additional details about the bug and its environment.
       placeholder: |
+        - Do you have relevant screenshots?
+        - Do you have any other information that might be helpful?
         - Tell us about where you are seeing the problem.
           - Device
           - Operating System
           - Browser
-        - Do you have relevant screenshots?
-        - Do you have any other information that might be helpful?
