@@ -16,8 +16,8 @@ body:
   - type: textarea
     id: reproduce-steps
     attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
+      label: Reproducible Example
+      description: Please provide a minimal reproducible example of the bug.
       placeholder: |
         1. Go to '...'
         2. Click on '....'
